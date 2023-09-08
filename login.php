@@ -17,9 +17,9 @@
 	<?php
 
 	$server = "localhost";
-	$user = "root";
-	$pass = "root";
-	$db = "fortrancer";
+	$user = ""; // mysql username
+	$pass = ""; //  mysql password
+	$db = ""; // mysql database
 
 	$username = $password = "";
 	$usernameErr = $passwordErr = $sqlErr = "";
