@@ -2,6 +2,13 @@
 
 This is a simple PHP login page with SQL database support that allows users to sign in, sign up, access a dashboard, and upload images. Each user has their own session to maintain security and privacy.
 
+## Images
+
+![Alt Text](./images/image1.png)
+![Alt Text](./images/image2.png)
+![Alt Text](./images/image3.png)
+![Alt Text](./images/image4.png)
+
 ## Features
 
 1. **User Registration:** Users can sign up for an account by providing their username, email, and password. Form validation is implemented to ensure data accuracy.
