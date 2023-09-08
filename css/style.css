@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body
+{
+	background: linear-gradient(to right, #fc5c7d, #6a82fb);
+	font-family:Poppins;
+	color:white;
+}
+
+.container
+{
+	width:70%;
+	background:linear-gradient(to top,#434343 1%,black);
+	margin-left:15%;
+	margin-right:15%;
+	margin-top:50px;
+	text-align:center;
+	border-radius:10px;
+	box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.3);
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	transform: translateY(10%);
+	letter-spacing:2px;
+}
+
+.btn
+{
+	background: linear-gradient(to right, #fc5c7d, #6a82fb);
+	font-family:Poppins;
+	width:50%;
+	margin:0 auto;
+	height:40px;
+	max-height:100px;
+	border-radius:5px;
+	color:white;
+	transition: .4s ease-out;
+	border:none;
+	box-shadow: 
+    0 0 10px rgba(0, 0, 0, 0.3), 
+    0 0 20px rgba(0, 0, 0, 0.2) inset,
+    0 0 30px rgba(0, 0, 0, 0.3) inset;
+}
+
+.btn:hover
+{
+	background: linear-gradient(to left, #fc5c7d, #6a82fb);
+	transition: 0.3s ease-out;
+	box-shadow: 0 0 80px rgba(0, 0, 0, 0.6);
+}
+
+a 
+{
+	color:white;
+	text-decoration: none;
+	font-weight:normal;
+}
+
+label
+{
+	text-align:left;
+	flex:1;
+	top:5px;
+	position:relative;
+}
+
+input[type="text"],input[type="password"],input[type="submit"],input[type="file"]
+{
+	border:none;
+	border-radius:5px;
+	height:30px;
+	max-height:100px;
+	width:50%;
+	margin-top:10px;
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3),
+	0px 0px 20px rgba(0,0,0.3) inset;
+	transition:all ease-out .2s;
+	flex:2;
+	font-family: Poppins;
+	text-align:center;
+}
+
+input[type="text"]:focus,input[type="password"]:focus,input[type="submit"]:focus,input[type="file"]:focus
+{
+	border:none;
+	outline:none;
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3),
+	0px 0px 10px rgba(0,0,0.3) inset;
+	transition:all ease-out .2s;
+}
+
+.error
+{
+	font-size:10px;
+	color:red;
+	margin-top:5px;
+}
+
+h1
+{
+	font-size:70px;
+	text-shadow:5px 2px 10px rgba(0,0,0,0.3);
+}
+
+h2
+{
+	letter-spacing: 10px;
+	font-size:8px;
+	transform: translateY(600%);
+	margin-left:10px;
+	text-shadow:5px 2px 10px rgba(0,0,0,0.3);
+}
+
+h4
+{
+	font-size:10px;
+}
+
+.image
+{
+	height:auto;
+	width:30%;
+	margin:0 auto;
+	top:-50px;
+	border-radius:50%;
+	border:solid white 2px;
+}
+
+.text-holder
+{
+	width:100%;
+	background: linear-gradient(to right, #fc5c7d, #6a82fb);
+	height:auto;
+	transition:all ease-out .2s;
+	margin-top:50px;
+	margin-bottom:50px;
+	box-shadow: 
+    0 0 90px rgba(0, 0, 0, 0.2) inset,
+    0 0 80px rgba(0, 0, 0, 0.7) inset;
+}
+
+.text-holder:hover
+{
+	background: linear-gradient(to left, #fc5c7d, #6a82fb);
+	transition:all ease-out .2s;
+	box-shadow: 
+    0 0 90px rgba(0, 0, 0, 0.2) inset,
+    0 0 80px rgba(0, 0, 0, 0.9) inset;
+}
+
+.footer
+{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	position:relative;
+	top:100px;
+	font-size:8px;
+}
+
+input[type="file"]::file-selector-button
+{
+	background:none;
+	border:none;
+	color:white;
+	font-family:Poppins;
+	display: flex;
+	align-content: center;
+	width:100%;
+	height:100%;
+	justify-content: center;
+	background: linear-gradient(to right, #fc5c7d, #6a82fb);
+	box-shadow:
+	0px 0px 10px rgba(0,0,0.3) inset,
+	0px 0px 60px rgba(0,0,0,0.2) inset;
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .container
+     {
+    	width:80%;
+    	height:auto;
+    	display:flex;
+    	align-content: center;
+    	justify-content: center;
+    	margin:0 auto;
+    	transform: translateY(5%);
+    }
+
+    input[type="text"],input[type="password"],input[type="submit"],input[type="file"]
+	{
+		height:50px;
+		width:80%;
+		margin:-5px;
+	}
+
+	label
+	{
+		top:-10px;
+	}
+	.btn
+	{
+		width:80%;
+	}
+	h1
+	{
+		font-size:40px;
+	}
+	h2
+	{
+		font-size:4px;
+	}
+
+}
+
+
+
+
+
+
+
